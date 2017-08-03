@@ -16,16 +16,8 @@
 class Solution {
 public:
     int findComplement(int num) {
-      int r = 1;
-      int num2 = num;
-      // count the number of bits
-      // thx to https://stackoverflow.com/a/4970859
-      while (num2 >>=1)
-        r++;
-
-      // Toggle kth bit: s ^= (1 << k);
-      while(r--)
-        num ^= (1 << r);
-      return num;
+      unsigned mask = ~0;
+      while (num & mask) mask <<= 1;
+      return ~mask & ~num;
     }
 };
