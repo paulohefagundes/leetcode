@@ -1,6 +1,6 @@
 #include "catch.hpp"
 #include "treeNode.hpp"
-#include "mergeTwoBinaryTrees.cpp"
+#include "0617_mergeTwoBinaryTrees.cpp"
 
 TEST_CASE("the tree merges properly") {
   // setup

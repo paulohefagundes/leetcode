@@ -1,5 +1,5 @@
 #include "catch.hpp"
-#include "hammingDistance.cpp"
+#include "0461_hammingDistance.cpp"
 
 TEST_CASE("hammingDistance") {
   Solution solution = Solution();

@@ -1,4 +1,4 @@
-require_relative '../algorithms/535_Encode_and_Decode_TinyURL/tiny_url.rb'
+require_relative '../algorithms/0535_tiny_url.rb'
 
 describe 'tiny_url' do
   it 'encodes' do
