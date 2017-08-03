@@ -10,11 +10,13 @@ target_include_directories(Catch INTERFACE ${CATCH_INCLUDE_DIR})
 set(IMPL_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/../algorithms/include)
 set(IMPL_SOURCES ${IMPL_SOURCES} ${CMAKE_CURRENT_SOURCE_DIR}/../algorithms/461_Hamming_Distance/)
 set(IMPL_SOURCES ${IMPL_SOURCES} ${CMAKE_CURRENT_SOURCE_DIR}/../algorithms/617_merge_two_binary_trees/)
+set(IMPL_SOURCES ${IMPL_SOURCES} ${CMAKE_CURRENT_SOURCE_DIR}/../algorithms/561_Array_Partition_I/)
 include_directories(${IMPL_SOURCES})
 
 # add the test files
 set(TEST_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/hammingDistanceTest.cpp)
 set(TEST_SOURCES ${TEST_SOURCES} ${CMAKE_CURRENT_SOURCE_DIR}/mergeTwoBinaryTreesTest.cpp)
+set(TEST_SOURCES ${TEST_SOURCES} ${CMAKE_CURRENT_SOURCE_DIR}/arrayPartitionITest.cpp)
 
 # Make test executable
 add_executable(tests main.cpp ${TEST_SOURCES})
