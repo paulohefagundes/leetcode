@@ -15,25 +15,27 @@
 
 using namespace std;
 
-class Solution {
-public:
-    int hammingDistance(int x, int y) {
-      return countSetBits(x ^ y);
+class Solution
+{
+  public:
+    int hammingDistance(int x, int y)
+    {
+        return countSetBits(x ^ y);
     }
 
-private:
-  // thx to http://www.geeksforgeeks.org/count-set-bits-in-an-integer/
-  // Brian Kernighan’s Algorithm
-  /* Function to get no of set bits in binary
+  private:
+    // thx to http://www.geeksforgeeks.org/count-set-bits-in-an-integer/
+    // Brian Kernighan’s Algorithm
+    /* Function to get no of set bits in binary
      representation of passed binary no. */
-  unsigned int countSetBits(int n)
-  {
-    unsigned int count = 0;
-    while (n)
-      {
-        n &= (n-1) ;
-        count++;
-      }
-    return count;
-  }
+    unsigned int countSetBits(int n)
+    {
+        unsigned int count = 0;
+        while (n)
+        {
+            n &= (n - 1);
+            count++;
+        }
+        return count;
+    }
 };

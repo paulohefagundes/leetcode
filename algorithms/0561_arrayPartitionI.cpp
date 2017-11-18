@@ -12,21 +12,23 @@
  * 1. n is a positive integer, which is in the range of [1, 10000].
  * 2. All the integers in the array will be in the range of [-10000, 10000].
  *******************************************************************************/
-#include <vector>
 #include <algorithm>
+#include <vector>
 
-class Solution {
-public:
-  int arrayPairSum(std::vector<int>& nums) {
-    // sort the vector
-    std::sort(nums.begin(), nums.end());
-
-    // add the pairs
-    int sum = 0;
-    for (int i = 0; i < nums.size(); i +=2)
+class Solution
+{
+  public:
+    int arrayPairSum(std::vector<int>& nums)
     {
-      sum += nums[i];
+        // sort the vector
+        std::sort(nums.begin(), nums.end());
+
+        // add the pairs
+        int sum = 0;
+        for (int i = 0; i < nums.size(); i += 2)
+        {
+            sum += nums[i];
+        }
+        return sum;
     }
-    return sum;
-  }
 };
