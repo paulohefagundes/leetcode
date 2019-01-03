@@ -1,5 +1,5 @@
-#include "0461_hammingDistance.cpp"
-#include "catch.hpp"
+#include "0461_hammingDistance.hpp"
+#include <catch2/catch.hpp>
 
 TEST_CASE("hammingDistance")
 {

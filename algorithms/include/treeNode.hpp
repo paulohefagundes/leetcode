@@ -1,5 +1,4 @@
-#ifndef TREE_NODE_H
-#define TREE_NODE_H
+#pragma once
 
 // Definition for a binary tree node.
 struct TreeNode
@@ -10,5 +9,3 @@ struct TreeNode
     TreeNode(int x) :
         val(x), left(nullptr), right(nullptr) {}
 };
-
-#endif
