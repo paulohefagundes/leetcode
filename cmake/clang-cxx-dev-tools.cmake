@@ -16,10 +16,11 @@ if(CLANG_FORMAT)
     ALL_CXX_SOURCE_FILES
     *.[ch]pp *.[ch]xx *.cc *.hh *.[ch])
 
-  # remove all of the third-party/* files from the list
-  foreach(SOURCE_FILE ${ALL_CXX_SOURCE_FILES})
+  # remove all of the third-party/* and build/* files from the list
+  foreach(SOURCE_FILE IN LISTS ALL_CXX_SOURCE_FILES)
     string(FIND ${SOURCE_FILE} third-party THIRD_PARTY_DIR_FOUND)
-    if(NOT ${THIRD_PARTY_DIR_FOUND} EQUAL -1)
+    string(FIND ${SOURCE_FILE} ${CMAKE_BINARY_DIR} BUILD_DIR_FOUND)
+    if((NOT ${THIRD_PARTY_DIR_FOUND} EQUAL -1) OR (NOT ${BUILD_DIR_FOUND} EQUAL -1))
       list(REMOVE_ITEM ALL_CXX_SOURCE_FILES ${SOURCE_FILE})
     endif()
   endforeach()

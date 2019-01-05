@@ -19,8 +19,8 @@ target_include_directories(unit_tests
 target_link_libraries(unit_tests Catch2)
 target_compile_definitions(unit_tests PRIVATE UNIT_TEST) # similar to -D UNIT_TEST
 target_compile_options(unit_tests PRIVATE
-  $<$<CXX_COMPILER_ID:GNU>:-Wall -pedantic -Wextra -Werror>
-  $<$<CXX_COMPILER_ID:Clang>:-Wall -Wextra -Werror>
+  $<$<CXX_COMPILER_ID:GNU>:-Wall -pedantic -Wextra>
+  $<$<CXX_COMPILER_ID:Clang>:-Wall -Wextra>
 )
 
 add_test(NAME "run_unit_tests"
