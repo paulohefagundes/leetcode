@@ -1,5 +1,5 @@
-#include "0476_numberComplement.cpp"
-#include "catch.hpp"
+#include "0476_numberComplement.hpp"
+#include <catch2/catch.hpp>
 
 TEST_CASE("numberComplement")
 {
