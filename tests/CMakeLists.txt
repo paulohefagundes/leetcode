@@ -16,12 +16,10 @@ target_include_directories(unit_tests
     ${CMAKE_CURRENT_SOURCE_DIR}/../algorithms/
 )
 
-target_link_libraries(unit_tests Catch2)
+find_package(Catch2 REQUIRED CONFIG)
+
+target_link_libraries(unit_tests PRIVATE Catch2::Catch2 project_warnings)
 target_compile_definitions(unit_tests PRIVATE UNIT_TEST) # similar to -D UNIT_TEST
-target_compile_options(unit_tests PRIVATE
-  $<$<CXX_COMPILER_ID:GNU>:-Wall -pedantic -Wextra>
-  $<$<CXX_COMPILER_ID:Clang>:-Wall -Wextra>
-)
 
 add_test(NAME "run_unit_tests"
   COMMAND $<TARGET_FILE:unit_tests>
