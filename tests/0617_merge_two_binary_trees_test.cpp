@@ -1,4 +1,4 @@
-#include "0617_mergeTwoBinaryTrees.hpp"
+#include "0617_merge_two_binary_trees.cpp"
 #include <catch2/catch.hpp>
 #include "treeNode.hpp"
 

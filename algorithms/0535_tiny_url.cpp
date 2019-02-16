@@ -44,10 +44,9 @@ using namespace std;
 
 */
 
-static const std::string base64_chars =
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    "abcdefghijklmnopqrstuvwxyz"
-    "0123456789+/";
+static const std::string base64_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                                        "abcdefghijklmnopqrstuvwxyz"
+                                        "0123456789+/";
 
 static inline bool is_base64(unsigned char c)
 {
@@ -172,19 +171,9 @@ class Solution
     }
 
     // Decodes a shortened URL to its original URL.
-    string decode(const string& shortUrl)
-    {
-        return base64_decode(shortUrl);
-    }
+    string decode(const string& shortUrl) { return base64_decode(shortUrl); }
 };
 
 // Your Solution object will be instantiated and called as such:
 // Solution solution;
 // solution.decode(solution.encode(url));
-
-int main()
-{
-    Solution solution = Solution();
-    string url = "https://leetcode.com/problems/design-tinyurl";
-    cout << solution.decode(solution.encode(url)) << endl;
-}

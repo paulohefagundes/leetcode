@@ -17,6 +17,5 @@ include(compiler-warnings)
 include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup(TARGETS)
 
-add_subdirectory(algorithms)
 enable_testing()
 add_subdirectory(tests)

@@ -1,4 +1,4 @@
-#include "0561_arrayPartitionI.hpp"
+#include "0561_array_partition_i.cpp"
 #include <catch2/catch.hpp>
 
 TEST_CASE("arrayPairSum")
