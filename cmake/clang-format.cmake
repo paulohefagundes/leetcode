@@ -58,7 +58,3 @@ if(ENABLE_CLANG_FORMAT)
     message(AUTHOR_WARNING "clang-format not found in the PATH")
   endif(CLANG_FORMAT)
 endif(ENABLE_CLANG_FORMAT)
-
-if(CLANG_FORMAT AND ENABLE_CLANG_FORMAT)
-
-endif()
