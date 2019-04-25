@@ -16,7 +16,7 @@ cmake --build .
 
 | #  | Title | Solution | Difficulty | Type |
 |----| ----- | -------- | ---------- | ---- |
-|0001|[Two Sum](https://leetcode.com/problems/two-sum/)||Easy|Array|
+|0001|[Two Sum](https://leetcode.com/problems/two-sum/)|[C++](algorithms/0001_two_sum.cpp), [Python](algorithms/0001_two_sum.cpp)|Easy|Array|
 |0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)||Medium|String|
 |0005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)||Medium|String|
 |0011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)||Medium|Array|
