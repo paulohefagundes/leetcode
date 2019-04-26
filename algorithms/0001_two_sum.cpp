@@ -14,26 +14,6 @@
 class Solution
 {
   public:
-    /*
-    // brute force algorithm
-    // time:  O(n^2)
-    // space: O(1)
-    std::vector<int> twoSum(const std::vector<int>& nums, int target)
-    {
-
-        for (int i = 0; i < nums.size(); i++)
-        {
-            for (int j = i + 1; j < nums.size(); j++)
-            {
-                if (nums[i] + nums[j] == target)
-                    return std::vector{i, j};
-            }
-        }
-
-        return {};
-    }
-    */
-
     // one-pass hash table
     // time:  O(n)
     // space: O(n)
@@ -49,6 +29,24 @@ class Solution
             }
             map[target - n] = i++;
         }
+        return {};
+    }
+
+    // brute force algorithm
+    // time:  O(n^2)
+    // space: O(1)
+    std::vector<int> twoSumBrute(const std::vector<int>& nums, int target)
+    {
+
+        for (int i = 0; i < nums.size(); i++)
+        {
+            for (int j = i + 1; j < nums.size(); j++)
+            {
+                if (nums[i] + nums[j] == target)
+                    return std::vector{i, j};
+            }
+        }
+
         return {};
     }
 };
