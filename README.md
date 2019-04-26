@@ -16,13 +16,13 @@ cmake --build .
 
 | #  | Title | Solution | Difficulty | Type |
 |----| ----- | -------- | ---------- | ---- |
-|0001|[Two Sum](https://leetcode.com/problems/two-sum/)|[C++](algorithms/0001_two_sum.cpp), [Python](algorithms/0001_two_sum.cpp)|Easy|Array|
+|0001|[Two Sum](https://leetcode.com/problems/two-sum/)|[C++](algorithms/0001_two_sum.cpp), [Python](algorithms/0001_two_sum.py)|Easy|Array|
 |0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)||Medium|String|
 |0005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)||Medium|String|
 |0011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)||Medium|Array|
 |0015|[3Sum](https://leetcode.com/problems/3sum/)||Medium|Array|
 |0019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)||Medium|Linked List|
-|0020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)||Easy|String|
+|0020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[C++](algorithms/0020_valid_parentheses.cpp), [Python](algorithms/0020_valid_parentheses.py)|Easy|String|
 |0021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)||Easy|Linked List|
 |0023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)||Hard|Linked List,Heap|
 |0033|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)||Medium|Array|

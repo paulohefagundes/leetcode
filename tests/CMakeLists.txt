@@ -4,6 +4,7 @@ target_sources(unit_tests
   PRIVATE
     main.cpp
     0001_two_sum_test.cpp
+    0020_valid_parentheses_test.cpp
     0461_hamming_distance_test.cpp
     0476_number_complement_test.cpp
     0500_keyboard_row_test.cpp
