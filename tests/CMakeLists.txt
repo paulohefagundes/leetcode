@@ -6,6 +6,7 @@ target_sources(unit_tests
     0001_two_sum_test.cpp
     0020_valid_parentheses_test.cpp
     0021_merge_two_sorted_lists_test.cpp
+    0141_linked_list_cycle_test.cpp
     0461_hamming_distance_test.cpp
     0476_number_complement_test.cpp
     0500_keyboard_row_test.cpp

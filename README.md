@@ -50,7 +50,7 @@ cmake --build .
 |0128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)||Hard|Graph|
 |0133|[Clone Graph](https://leetcode.com/problems/clone-graph/)||Medium|Graph|
 |0139|[Word Break](https://leetcode.com/problems/word-break/)||Medium|DP|
-|0141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)||Easy|Linked List|
+|0141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[C++](algorithms/0141_linked_list_cycle.cpp), [Python](algorithms/0141_linked_list_cycle.py)|Easy|Linked List|
 |0143|[Reorder List](https://leetcode.com/problems/reorder-list/)||Medium|Linked List|
 |0152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)||Medium|Array|
 |0153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)||Medium|Array|
