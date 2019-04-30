@@ -10,6 +10,7 @@ target_sources(unit_tests
     0461_hamming_distance_test.cpp
     0476_number_complement_test.cpp
     0500_keyboard_row_test.cpp
+    # 0535_tiny_url_test.cpp
     0561_array_partition_i_test.cpp
     0617_merge_two_binary_trees_test.cpp)
 

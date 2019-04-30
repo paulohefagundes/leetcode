@@ -40,6 +40,7 @@
    René Nyffenegger rene.nyffenegger@adp-gmbh.ch
 
 */
+#include <string>
 
 static const std::string base64_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
                                         "abcdefghijklmnopqrstuvwxyz"
@@ -162,13 +163,13 @@ class Solution
 {
   public:
     // Encodes a URL to a shortened URL.
-    std::string encode(const string& longUrl)
+    std::string encode(const std::string& longUrl)
     {
         return base64_encode(reinterpret_cast<const unsigned char*>(longUrl.c_str()), longUrl.length());
     }
 
     // Decodes a shortened URL to its original URL.
-    std::string decode(const string& shortUrl) { return base64_decode(shortUrl); }
+    std::string decode(const std::string& shortUrl) { return base64_decode(shortUrl); }
 };
 
 // Your Solution object will be instantiated and called as such:
