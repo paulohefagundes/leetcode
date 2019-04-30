@@ -1,9 +1,7 @@
 #include "0121_best_time_to_buy_and_sell_stock.cpp"
 #include <catch2/catch.hpp>
 
-#include <iostream>
-
-TEST_CASE("foo")
+TEST_CASE("maxProfitTest")
 {
     Solution s;
 

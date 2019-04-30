@@ -28,7 +28,7 @@ cmake --build .
 |0033|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)||Medium|Array|
 |0048|[Rotate Image](https://leetcode.com/problems/rotate-image/)||Medium|Matrix|
 |0049|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)||Medium|String|
-|0053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)||Easy|Array|
+|0053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](algorithms/0053_maximum_subarray.cpp), [Python](algorithms/0053_maximum_subarray.py)|Easy|Array|
 |0054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)||Medium|Matrix|
 |0055|[Jump Game](https://leetcode.com/problems/jump-game/)||Medium|DP|
 |0056|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)||Medium|Interval|
