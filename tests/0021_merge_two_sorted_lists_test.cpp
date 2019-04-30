@@ -2,10 +2,11 @@
 #include "listNode.hpp"
 #include <catch2/catch.hpp>
 #include <iostream>
+#include <memory>
 
 void print_list(ListNode* list)
 {
-    while (list)
+    while (list != nullptr)
     {
         std::cerr << list->val << "->";
         list = list->next;
@@ -15,17 +16,22 @@ void print_list(ListNode* list)
 
 TEST_CASE("mergeTwoListsTest1")
 {
-    // l1 = 1->2->4
-    ListNode* l1 = new ListNode(1);
-    l1->next = new ListNode(2);
-    l1->next->next = new ListNode(4);
-    // l2 = 1->3->4
-    ListNode* l2 = new ListNode(1);
-    l2->next = new ListNode(3);
-    l2->next->next = new ListNode(4);
+    // l = 1->2->4
+    auto l0 = std::make_unique<ListNode>(1);
+    auto l1 = std::make_unique<ListNode>(2);
+    auto l2 = std::make_unique<ListNode>(4);
+    l0->next = l1.get();
+    l1->next = l2.get();
+
+    // r = 1->3->4
+    auto r0 = std::make_unique<ListNode>(1);
+    auto r1 = std::make_unique<ListNode>(3);
+    auto r2 = std::make_unique<ListNode>(4);
+    r0->next = r1.get();
+    r1->next = r2.get();
 
     Solution s = Solution();
-    auto result = s.mergeTwoLists(l1, l2);
+    auto result = s.mergeTwoLists(l0.get(), r0.get());
 
     // result = 1->1->2->3->4->4
     REQUIRE(result != nullptr);
@@ -45,17 +51,22 @@ TEST_CASE("mergeTwoListsTest1")
 
 TEST_CASE("mergeTwoListsTest2")
 {
-    // l1 = 2->3->4
-    ListNode* l1 = new ListNode(2);
-    l1->next = new ListNode(3);
-    l1->next->next = new ListNode(4);
-    // l2 = 1->2->5
-    ListNode* l2 = new ListNode(1);
-    l2->next = new ListNode(2);
-    l2->next->next = new ListNode(5);
+    // l = 2->3->4
+    auto l0 = std::make_unique<ListNode>(2);
+    auto l1 = std::make_unique<ListNode>(3);
+    auto l2 = std::make_unique<ListNode>(4);
+    l0->next = l1.get();
+    l1->next = l2.get();
+
+    // l = 1->2->5
+    auto r0 = std::make_unique<ListNode>(1);
+    auto r1 = std::make_unique<ListNode>(2);
+    auto r2 = std::make_unique<ListNode>(5);
+    r0->next = r1.get();
+    r1->next = r2.get();
 
     Solution s = Solution();
-    auto result = s.mergeTwoLists(l1, l2);
+    auto result = s.mergeTwoLists(l0.get(), r0.get());
 
     // result = 1->2->2->3->4->5
     REQUIRE(result != nullptr);
@@ -70,17 +81,22 @@ TEST_CASE("mergeTwoListsTest2")
 
 TEST_CASE("mergeTwoListsTest3")
 {
-    // l1 = 2->3->4
-    ListNode* l1 = new ListNode(2);
-    l1->next = new ListNode(3);
-    l1->next->next = new ListNode(4);
+    // l = 2->3->4
+    auto l0 = std::make_unique<ListNode>(2);
+    auto l1 = std::make_unique<ListNode>(3);
+    auto l2 = std::make_unique<ListNode>(4);
+    l0->next = l1.get();
+    l1->next = l2.get();
+
     // l2 = 5->6->7
-    ListNode* l2 = new ListNode(5);
-    l2->next = new ListNode(6);
-    l2->next->next = new ListNode(7);
+    auto r0 = std::make_unique<ListNode>(5);
+    auto r1 = std::make_unique<ListNode>(6);
+    auto r2 = std::make_unique<ListNode>(7);
+    r0->next = r1.get();
+    r1->next = r2.get();
 
     Solution s = Solution();
-    auto result = s.mergeTwoLists(l1, l2);
+    auto result = s.mergeTwoLists(l0.get(), r0.get());
 
     // result = 2->3->4->5->6->7
     REQUIRE(result != nullptr);
@@ -95,17 +111,22 @@ TEST_CASE("mergeTwoListsTest3")
 
 TEST_CASE("mergeTwoListsTest4")
 {
-    // l1 = 4->5->6
-    ListNode* l1 = new ListNode(4);
-    l1->next = new ListNode(5);
-    l1->next->next = new ListNode(6);
-    // l2 = 1->2->3
-    ListNode* l2 = new ListNode(1);
-    l2->next = new ListNode(2);
-    l2->next->next = new ListNode(3);
+    // l = 4->5->6
+    auto l0 = std::make_unique<ListNode>(4);
+    auto l1 = std::make_unique<ListNode>(5);
+    auto l2 = std::make_unique<ListNode>(6);
+    l0->next = l1.get();
+    l1->next = l2.get();
+
+    // r = 1->2->3
+    auto r0 = std::make_unique<ListNode>(1);
+    auto r1 = std::make_unique<ListNode>(2);
+    auto r2 = std::make_unique<ListNode>(3);
+    r0->next = r1.get();
+    r1->next = r2.get();
 
     Solution s = Solution();
-    auto result = s.mergeTwoLists(l1, l2);
+    auto result = s.mergeTwoLists(l0.get(), r0.get());
 
     // result = 1->2->3->4->5->6
     REQUIRE(result != nullptr);

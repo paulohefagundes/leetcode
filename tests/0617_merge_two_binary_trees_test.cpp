@@ -1,24 +1,32 @@
 #include "0617_merge_two_binary_trees.cpp"
-#include <catch2/catch.hpp>
 #include "treeNode.hpp"
+#include <catch2/catch.hpp>
+#include <memory>
 
 TEST_CASE("the tree merges properly")
 {
     // setup
-    TreeNode* t1 = new TreeNode(1);
-    t1->left = new TreeNode(3);
-    t1->right = new TreeNode(2);
-    t1->left->left = new TreeNode(5);
+    auto l0 = std::make_unique<TreeNode>(1);
+    auto l1 = std::make_unique<TreeNode>(3);
+    auto l2 = std::make_unique<TreeNode>(2);
+    auto l3 = std::make_unique<TreeNode>(5);
+    l0->left = l1.get();
+    l0->right = l2.get();
+    l1->left = l3.get();
 
-    TreeNode* t2 = new TreeNode(2);
-    t2->left = new TreeNode(1);
-    t2->right = new TreeNode(3);
-    t2->left->right = new TreeNode(4);
-    t2->right->right = new TreeNode(7);
+    auto r0 = std::make_unique<TreeNode>(2);
+    auto r1 = std::make_unique<TreeNode>(1);
+    auto r2 = std::make_unique<TreeNode>(3);
+    auto r3 = std::make_unique<TreeNode>(4);
+    auto r4 = std::make_unique<TreeNode>(7);
+    r0->left = r1.get();
+    r0->right = r2.get();
+    r1->right = r3.get();
+    r2->right = r4.get();
 
     // call the function we're going to test
     Solution solution = Solution();
-    TreeNode* t3 = solution.mergeTrees(t1, t2);
+    TreeNode* t3 = solution.mergeTrees(l0.get(), r0.get());
 
     // assert we've got the correct results
     REQUIRE(t3 != nullptr);

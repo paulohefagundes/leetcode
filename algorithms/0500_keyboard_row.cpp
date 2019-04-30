@@ -1,5 +1,6 @@
 /*******************************************************************************
- * Given a List of words, return the words that can be typed using letters of alphabet on only one row's of American keyboard like the image below.
+ * Given a List of words, return the words that can be typed using letters of alphabet on only one row's of American
+ *keyboard like the image below.
  *
  * Example 1:
  * Input: ["Hello", "Alaska", "Dad", "Peace"]
@@ -44,7 +45,7 @@ class Solution
         // loop over each letter in the word checking if it is in the row
         for (char c : word)
         {
-            c = tolower(c);
+            c = static_cast<char>(tolower(static_cast<unsigned char>(c)));
             if (inRow1 && ROW1.find(c) == std::string::npos)
                 inRow1 = false;
 
