@@ -6,6 +6,7 @@ target_sources(unit_tests
     0001_two_sum_test.cpp
     0020_valid_parentheses_test.cpp
     0021_merge_two_sorted_lists_test.cpp
+    0121_best_time_to_buy_and_sell_stock_test.cpp
     0141_linked_list_cycle_test.cpp
     0461_hamming_distance_test.cpp
     0476_number_complement_test.cpp
@@ -24,8 +25,6 @@ target_link_libraries(unit_tests
   PRIVATE
     Catch2::Catch2
     project_warnings)
-
-target_compile_definitions(unit_tests PRIVATE UNIT_TEST) # similar to -D UNIT_TEST
 
 add_test(NAME "run_unit_tests"
   COMMAND $<TARGET_FILE:unit_tests>
