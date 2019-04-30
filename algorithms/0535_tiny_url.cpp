@@ -11,9 +11,6 @@
  * There is no restriction on how your encode/decode algorithm should work.
  * You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.
  *******************************************************************************/
-#include <iostream>
-
-using namespace std;
 
 /*
    thx to: https://stackoverflow.com/a/180949
@@ -165,13 +162,13 @@ class Solution
 {
   public:
     // Encodes a URL to a shortened URL.
-    string encode(const string& longUrl)
+    std::string encode(const string& longUrl)
     {
         return base64_encode(reinterpret_cast<const unsigned char*>(longUrl.c_str()), longUrl.length());
     }
 
     // Decodes a shortened URL to its original URL.
-    string decode(const string& shortUrl) { return base64_decode(shortUrl); }
+    std::string decode(const string& shortUrl) { return base64_decode(shortUrl); }
 };
 
 // Your Solution object will be instantiated and called as such:

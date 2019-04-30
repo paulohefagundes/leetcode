@@ -12,14 +12,12 @@
 #include <string>
 #include <vector>
 
-using namespace std;
-
 class Solution
 {
   public:
     std::vector<std::string> findWords(std::vector<std::string>& words)
     {
-        vector<std::string> result;
+        std::vector<std::string> result;
 
         for (auto it = words.begin(); it != words.end(); it++)
         {
