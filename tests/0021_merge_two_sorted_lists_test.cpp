@@ -1,6 +1,6 @@
 #include "0021_merge_two_sorted_lists.cpp"
 #include "listNode.hpp"
-#include <catch2/catch.hpp>
+#include <doctest.h>
 #include <iostream>
 #include <memory>
 

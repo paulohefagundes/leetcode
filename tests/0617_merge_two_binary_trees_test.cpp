@@ -1,6 +1,6 @@
 #include "0617_merge_two_binary_trees.cpp"
 #include "treeNode.hpp"
-#include <catch2/catch.hpp>
+#include <doctest.h>
 #include <memory>
 
 TEST_CASE("the tree merges properly")

@@ -1,5 +1,5 @@
 #include "0001_two_sum.cpp"
-#include <catch2/catch.hpp>
+#include <doctest.h>
 
 TEST_CASE("SimpleTest")
 {

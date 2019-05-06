@@ -1,5 +1,5 @@
 #include "0500_keyboard_row.cpp"
-#include <catch2/catch.hpp>
+#include <doctest.h>
 #include <string>
 
 TEST_CASE("keyboardRow1")

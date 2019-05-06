@@ -1,5 +1,5 @@
 #include "0121_best_time_to_buy_and_sell_stock.cpp"
-#include <catch2/catch.hpp>
+#include <doctest.h>
 
 TEST_CASE("maxProfitTest")
 {

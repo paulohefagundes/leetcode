@@ -10,6 +10,7 @@ Checks: "*,\
 -readability-magic-numbers,
 -fuchsia-default-arguments,
 -google-readability-todo,
+-hicpp-no-assembler,
 -hicpp-signed-bitwise,
 -llvm-header-guard,
 "

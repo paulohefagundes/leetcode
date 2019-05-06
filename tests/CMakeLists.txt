@@ -20,12 +20,12 @@ target_include_directories(unit_tests
   PRIVATE
     ../algorithms)
 
-find_package(Catch2 REQUIRED CONFIG)
-
 target_link_libraries(unit_tests
   PRIVATE
-    Catch2::Catch2
+    CONAN_PKG::doctest
     project_warnings)
+
+target_compile_definitions(unit_tests PRIVATE DOCTEST_CONFIG_SUPER_FAST_ASSERTS)
 
 add_test(NAME "run_unit_tests"
   COMMAND $<TARGET_FILE:unit_tests>

@@ -1,5 +1,5 @@
 #include "0561_array_partition_i.cpp"
-#include <catch2/catch.hpp>
+#include <doctest.h>
 
 TEST_CASE("arrayPairSum")
 {

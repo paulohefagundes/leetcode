@@ -1,5 +1,5 @@
 #include "0535_tiny_url.cpp"
-#include <catch2/catch.hpp>
+#include <doctest.h>
 
 TEST_CASE("encode and decode")
 {

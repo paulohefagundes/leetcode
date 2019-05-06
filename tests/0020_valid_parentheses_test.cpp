@@ -1,5 +1,5 @@
 #include "0020_valid_parentheses.cpp"
-#include <catch2/catch.hpp>
+#include <doctest.h>
 
 TEST_CASE("ValidParenthesesTests")
 {

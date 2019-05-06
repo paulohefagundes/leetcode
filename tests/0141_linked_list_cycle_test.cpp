@@ -1,6 +1,6 @@
 #include "0141_linked_list_cycle.cpp"
 #include "listNode.hpp"
-#include <catch2/catch.hpp>
+#include <doctest.h>
 #include <memory>
 
 TEST_CASE("hasCycle = true")
