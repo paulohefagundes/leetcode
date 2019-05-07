@@ -40,7 +40,7 @@ cmake --build .
 |0079|[Word Search](https://leetcode.com/problems/word-search/)||Medium|Matrix|
 |0091|[Decode Ways](https://leetcode.com/problems/decode-ways/)||Medium|DP|
 |0098|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)||Medium|Tree|
-|0100|[Same Tree](https://leetcode.com/problems/same-tree/)||Easy|Tree|
+|0100|[Same Tree](https://leetcode.com/problems/same-tree/)|[C++](algorithms/0100_same_tree.cpp), [Python](algorithms/0100_same_tree.py)|Easy|Tree|
 |0102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)||Medium|Tree|
 |0104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)||Easy|Tree|
 |0105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)||Medium|Tree|
