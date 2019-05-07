@@ -5,11 +5,16 @@ this repository contains my solutions for [leetcode problems]
 ## build
 
 ``` shell
+# install python dependencies
+python3 -m pip install --upgrade -r requirements.txt
+
+# build
 mkdir build
 cd build
-conan install .. --build missing
-cmake ..
-cmake --build .
+conan install .. --build outdated # installs conan dependencies
+cmake ..                          # configure cmake
+cmake --build .                   # build
+cmake --build . --target test     # run tests
 ```
 
 ## leetcode algorithms
@@ -98,4 +103,4 @@ cmake --build .
 |9999|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|||Graph|
 
 <!-- links -->
-[leetcodeproblems]: https://leetcode.com/problemset/all/
+[leetcode problems]: https://leetcode.com/problemset/all/

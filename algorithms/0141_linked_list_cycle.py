@@ -1,5 +1,8 @@
+from algorithms.list_node import ListNode
+
+
 class Solution(object):
-    def hasCycle(self, head):
+    def hasCycle(self, head: ListNode) -> bool:
         """
         :type head: ListNode
         :rtype: bool

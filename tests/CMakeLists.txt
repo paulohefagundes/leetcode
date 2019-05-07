@@ -28,6 +28,14 @@ target_link_libraries(unit_tests
 
 target_compile_definitions(unit_tests PRIVATE DOCTEST_CONFIG_SUPER_FAST_ASSERTS)
 
-add_test(NAME "run_unit_tests"
+add_test(NAME "run_cpp_tests"
   COMMAND $<TARGET_FILE:unit_tests>
   WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+
+# python tests
+find_package(Python3 COMPONENTS Interpreter)
+if(Python3_Interpreter_FOUND)
+  add_test(NAME "run_python_tests"
+    COMMAND Python3::Interpreter -m pytest
+    WORKING_DIRECTORY ${PROJECT_SOURCE_DIR})
+endif()
