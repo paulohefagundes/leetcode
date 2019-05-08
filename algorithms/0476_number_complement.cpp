@@ -15,6 +15,8 @@
 class Solution
 {
   public:
+    // time: O(1)
+    // space: O(1)
     unsigned findComplement(unsigned num)
     {
         unsigned mask = ~static_cast<unsigned>(0);

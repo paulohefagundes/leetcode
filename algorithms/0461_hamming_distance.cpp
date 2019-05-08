@@ -14,6 +14,8 @@
 class Solution
 {
   public:
+    // time:  O(1)
+    // space: O(1)
     unsigned hammingDistance(int x, int y) { return countSetBits(x ^ y); }
 
   private:
