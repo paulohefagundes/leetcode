@@ -39,7 +39,7 @@ cmake --build . --target test     # run tests
 |0056|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)||Medium|Interval|
 |0057|[Insert Interval](https://leetcode.com/problems/insert-interval/)||Medium|Interval|
 |0062|[Unique Paths](https://leetcode.com/problems/unique-paths/)||Medium|DP|
-|0070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)||Easy|DP|
+|0070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](algorithms/0070_climbing_stairs.cpp), [Python](algorithms/0070_climbing_stairs.py)|Easy|DP|
 |0073|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)||Medium|Matrix|
 |0076|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)||Hard|String|
 |0079|[Word Search](https://leetcode.com/problems/word-search/)||Medium|Matrix|
