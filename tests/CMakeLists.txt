@@ -9,6 +9,7 @@ target_sources(unit_tests
     0053_maximum_subarray_test.cpp
     0070_climbing_stairs_test.cpp
     0100_same_tree_test.cpp
+    0104_maximum_depth_of_binary_tree_test.cpp
     0121_best_time_to_buy_and_sell_stock_test.cpp
     0141_linked_list_cycle_test.cpp
     0461_hamming_distance_test.cpp
