@@ -11,6 +11,7 @@ target_sources(unit_tests
     0100_same_tree_test.cpp
     0104_maximum_depth_of_binary_tree_test.cpp
     0121_best_time_to_buy_and_sell_stock_test.cpp
+    0125_valid_palindrome_test.cpp
     0141_linked_list_cycle_test.cpp
     0461_hamming_distance_test.cpp
     0476_number_complement_test.cpp

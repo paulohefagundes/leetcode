@@ -51,7 +51,7 @@ cmake --build . --target test     # run tests
 |0105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)||Medium|Tree|
 |0121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[C++](algorithms/0121_best_time_to_buy_and_sell_stock.cpp), [Python](algorithms/0121_best_time_to_buy_and_sell_stock.py)|Easy|Array|
 |0124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)||Hard|Tree|
-|0125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)||Easy|String|
+|0125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[C++](algorithms/0125_valid_palindrome.cpp), [Python](algorithms/0125_valid_palindrome.py)|Easy|String|
 |0128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)||Hard|Graph|
 |0133|[Clone Graph](https://leetcode.com/problems/clone-graph/)||Medium|Graph|
 |0139|[Word Break](https://leetcode.com/problems/word-break/)||Medium|DP|
