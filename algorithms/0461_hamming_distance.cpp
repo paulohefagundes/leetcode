@@ -9,6 +9,8 @@
  *
  * Note:
  * 0 ≤ x, y < 231.
+ *
+ * see problem 191 (hamming weight)
  *******************************************************************************/
 
 class Solution
@@ -16,14 +18,14 @@ class Solution
   public:
     // time:  O(1)
     // space: O(1)
-    unsigned hammingDistance(int x, int y) { return countSetBits(x ^ y); }
+    unsigned hammingDistance(int x, int y) { return hammingWeight(x ^ y); }
 
   private:
     // thx to http://www.geeksforgeeks.org/count-set-bits-in-an-integer/
     // Brian Kernighan’s Algorithm
     /* Function to get no of set bits in binary
      representation of passed binary no. */
-    unsigned countSetBits(int n)
+    unsigned hammingWeight(int n)
     {
         unsigned count = 0;
         while (n)

@@ -13,6 +13,7 @@ target_sources(unit_tests
     0121_best_time_to_buy_and_sell_stock_test.cpp
     0125_valid_palindrome_test.cpp
     0141_linked_list_cycle_test.cpp
+    0191_number_of_1_bits_test.cpp
     0461_hamming_distance_test.cpp
     0476_number_complement_test.cpp
     0500_keyboard_row_test.cpp
