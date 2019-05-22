@@ -63,7 +63,7 @@ cmake --build . --target test     # run tests
 |0191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[C++](algorithms/0191_number_of_1_bits.cpp), [Python](algorithms/0191_number_of_1_bits.py)|Easy|Binary|
 |0198|[House Robber](https://leetcode.com/problems/house-robber/)||Easy|DP|
 |0200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)||Medium|Graph|
-|0206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)||Easy|Linked List|
+|0206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[C++](algorithms/0206_reverse_linked_list.cpp), [Python](algorithms/0206_reverse_linked_list.py)|Easy|Linked List|
 |0207|[Couse Schedule](https://leetcode.com/problems/course-schedule/)||Medium|Graph|
 |0208|[Implement Trie (PrefixTree)](https://leetcode.com/problems/implement-trie-prefix-tree/)||Medium|Tree|
 |0211|[Add and Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)||Medium|Tree|
