@@ -1,0 +1,21 @@
+from algorithms.tree_node import TreeNode
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def isSubtree(self, s: TreeNode, t: TreeNode) -> bool:
+        return (s is not None) and (self.isSameTree(s, t) or self.isSubtree(s.left, t) or self.isSubtree(s.right, t))
+
+    def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
+        if not p or not q:
+            return p is q
+        return (
+            (p.val == q.val)
+            and self.isSameTree(p.left, q.left)
+            and self.isSameTree(p.right, q.right)
+        )

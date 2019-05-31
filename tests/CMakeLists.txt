@@ -23,6 +23,7 @@ target_sources(unit_tests
     0500_keyboard_row_test.cpp
     # 0535_tiny_url_test.cpp
     0561_array_partition_i_test.cpp
+    0572_subtree_of_another_tree_test.cpp
     0617_merge_two_binary_trees_test.cpp)
 
 target_include_directories(unit_tests
