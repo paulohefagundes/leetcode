@@ -59,7 +59,7 @@ cmake --build . --target test     # run tests
 |0143|[Reorder List](https://leetcode.com/problems/reorder-list/)||Medium|Linked List|
 |0152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)||Medium|Array|
 |0153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)||Medium|Array|
-|0190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)||Easy|Binary|
+|0190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[C++](algorithms/0190_reverse_bits.cpp), [Python](algorithms/0190_reverse_bits.py)|Easy|Binary|
 |0191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[C++](algorithms/0191_number_of_1_bits.cpp), [Python](algorithms/0191_number_of_1_bits.py)|Easy|Binary|
 |0198|[House Robber](https://leetcode.com/problems/house-robber/)||Easy|DP|
 |0200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)||Medium|Graph|
