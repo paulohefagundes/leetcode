@@ -61,7 +61,7 @@ cmake --build . --target test     # run tests
 |0153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)||Medium|Array|
 |0190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[C++](algorithms/0190_reverse_bits.cpp), [Python](algorithms/0190_reverse_bits.py)|Easy|Binary|
 |0191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[C++](algorithms/0191_number_of_1_bits.cpp), [Python](algorithms/0191_number_of_1_bits.py)|Easy|Binary|
-|0198|[House Robber](https://leetcode.com/problems/house-robber/)||Easy|DP|
+|0198|[House Robber](https://leetcode.com/problems/house-robber/)|[C++](algorithms/0198_house_robber.cpp), [Python](algorithms/0198_house_robber.py)|Easy|DP|
 |0200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)||Medium|Graph|
 |0206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[C++](algorithms/0206_reverse_linked_list.cpp), [Python](algorithms/0206_reverse_linked_list.py)|Easy|Linked List|
 |0207|[Couse Schedule](https://leetcode.com/problems/course-schedule/)||Medium|Graph|
@@ -101,6 +101,7 @@ cmake --build . --target test     # run tests
 |9999|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|||Interval|
 |9999|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|||Interval|
 |9999|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|||Graph|
+|9999|[Longest Common Subsequence]|||DP|
 
 <!-- links -->
 [leetcode problems]: https://leetcode.com/problemset/all/

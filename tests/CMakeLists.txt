@@ -15,6 +15,7 @@ target_sources(unit_tests
     0141_linked_list_cycle_test.cpp
     0190_reverse_bits_test.cpp
     0191_number_of_1_bits_test.cpp
+    0198_house_robber_test.cpp
     0206_reverse_linked_list_test.cpp
     0217_contains_duplicate_test.cpp
     0226_invert_binary_tree_test.cpp
