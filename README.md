@@ -74,7 +74,7 @@ cmake --build . --target test     # run tests
 |0230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)||Medium|Tree|
 |0235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)||Easy|Tree|
 |0238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)||Medium|Array|
-|0242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)||Easy|String|
+|0242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[C++](algorithms/0242_valid_anagram.cpp), [Python](algorithms/0242_valid_anagram.py)|Easy|String|
 |0268|[Missing Number](https://leetcode.com/problems/missing-number/)||Easy|Binary|
 |0295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)||Hard|Heap|
 |0297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)||Hard|Tree|
