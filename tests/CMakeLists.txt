@@ -20,6 +20,7 @@ target_sources(unit_tests
     0217_contains_duplicate_test.cpp
     0226_invert_binary_tree_test.cpp
     0242_valid_anagram_test.cpp
+    0414_third_maximum_number_test.cpp
     0461_hamming_distance_test.cpp
     0476_number_complement_test.cpp
     0500_keyboard_row_test.cpp

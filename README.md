@@ -84,6 +84,7 @@ cmake --build . --target test     # run tests
 |0347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)||Medium|Heap|
 |0371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)||Easy|Binary|
 |0377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)||Medium|DP|
+|0414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[C++](algorithms/0414_third_maximum_number.cpp), [Python](algorithms/0414_third_maximum_number.py)|Easy|Heap|
 |0417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)||Medium|Graph|
 |0424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)||Medium|String|
 |0435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)||Medium|Interval|
