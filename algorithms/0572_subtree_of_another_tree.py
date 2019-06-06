@@ -7,9 +7,14 @@ from algorithms.tree_node import TreeNode
 #         self.left = None
 #         self.right = None
 
+
 class Solution:
     def isSubtree(self, s: TreeNode, t: TreeNode) -> bool:
-        return (s is not None) and (self.isSameTree(s, t) or self.isSubtree(s.left, t) or self.isSubtree(s.right, t))
+        return (s is not None) and (
+            self.isSameTree(s, t)
+            or self.isSubtree(s.left, t)
+            or self.isSubtree(s.right, t)
+        )
 
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
         if not p or not q:

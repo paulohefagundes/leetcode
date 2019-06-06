@@ -101,7 +101,7 @@ cmake --build . --target test     # run tests
 |9999|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|||Interval|
 |9999|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|||Interval|
 |9999|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|||Graph|
-|9999|[Longest Common Subsequence]|||DP|
+|9999|Longest Common Subsequence|||DP|
 
 <!-- links -->
 [leetcode problems]: https://leetcode.com/problemset/all/

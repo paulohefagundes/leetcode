@@ -6,6 +6,7 @@ from algorithms.list_node import ListNode
 #         self.val = x
 #         self.next = None
 
+
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         if not head or not head.next:
