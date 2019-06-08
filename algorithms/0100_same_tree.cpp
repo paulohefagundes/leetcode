@@ -13,7 +13,7 @@
  * };
  */
 
-#include "treeNode.hpp"
+#include "tree_node.hpp"
 
 class Solution
 {

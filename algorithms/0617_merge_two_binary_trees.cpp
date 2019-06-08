@@ -29,7 +29,7 @@
  * Note: The merging process must start from the root nodes of both trees.
  *******************************************************************************/
 
-#include "treeNode.hpp"
+#include "tree_node.hpp"
 
 // Definition for a binary tree node.
 // struct TreeNode {

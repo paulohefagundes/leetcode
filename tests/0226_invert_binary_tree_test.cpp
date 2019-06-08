@@ -4,22 +4,10 @@
 
 TEST_CASE("invertTree")
 {
-    auto t0 = std::make_unique<TreeNode>(4);
-    auto t1 = std::make_unique<TreeNode>(2);
-    auto t2 = std::make_unique<TreeNode>(7);
-    auto t3 = std::make_unique<TreeNode>(1);
-    auto t4 = std::make_unique<TreeNode>(3);
-    auto t5 = std::make_unique<TreeNode>(6);
-    auto t6 = std::make_unique<TreeNode>(9);
-    t0->left = t1.get();
-    t0->right = t2.get();
-    t1->left = t3.get();
-    t1->right = t4.get();
-    t2->left = t5.get();
-    t2->right = t6.get();
+    auto t = tree::make_tree({4, 2, 7, 1, 3, 6, 9});
 
     Solution s;
-    auto r = s.invertTree(t0.get());
+    auto r = s.invertTree(t[0].get());
 
     REQUIRE(r != nullptr);
     REQUIRE(r->left != nullptr);
