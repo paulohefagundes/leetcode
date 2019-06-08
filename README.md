@@ -72,7 +72,7 @@ cmake --build . --target test     # run tests
 |0217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[C++](algorithms/0217_contains_duplicate.cpp), [Python](algorithms/0217_contains_duplicate.py)|Easy|Array|
 |0226|[Invert BinaryTree](https://leetcode.com/problems/invert-binary-tree/)|[C++](algorithms/0226_invert_binary_tree.cpp), [Python](algorithms/0226_invert_binary_tree.py)|Easy|Tree|
 |0230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)||Medium|Tree|
-|0235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)||Easy|Tree|
+|0235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[C++](algorithms/0235_lowest_common_ancestor_of_a_binary_search_tree.cpp), [Python](algorithms/0235_lowest_common_ancestor_of_a_binary_search_tree.py)|Easy|Tree|
 |0238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)||Medium|Array|
 |0242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[C++](algorithms/0242_valid_anagram.cpp), [Python](algorithms/0242_valid_anagram.py)|Easy|String|
 |0268|[Missing Number](https://leetcode.com/problems/missing-number/)||Easy|Binary|

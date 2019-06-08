@@ -19,6 +19,7 @@ target_sources(unit_tests
     0206_reverse_linked_list_test.cpp
     0217_contains_duplicate_test.cpp
     0226_invert_binary_tree_test.cpp
+    0235_lowest_common_ancestor_of_a_binary_search_tree_test.cpp
     0242_valid_anagram_test.cpp
     0414_third_maximum_number_test.cpp
     0461_hamming_distance_test.cpp
