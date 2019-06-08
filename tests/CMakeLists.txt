@@ -21,6 +21,8 @@ target_sources(unit_tests
     0226_invert_binary_tree_test.cpp
     0235_lowest_common_ancestor_of_a_binary_search_tree_test.cpp
     0242_valid_anagram_test.cpp
+    0268_missing_number_test.cpp
+    0371_sum_of_two_integers_test.cpp
     0414_third_maximum_number_test.cpp
     0461_hamming_distance_test.cpp
     0476_number_complement_test.cpp

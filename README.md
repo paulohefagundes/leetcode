@@ -75,14 +75,14 @@ cmake --build . --target test     # run tests
 |0235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[C++](algorithms/0235_lowest_common_ancestor_of_a_binary_search_tree.cpp), [Python](algorithms/0235_lowest_common_ancestor_of_a_binary_search_tree.py)|Easy|Tree|
 |0238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)||Medium|Array|
 |0242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[C++](algorithms/0242_valid_anagram.cpp), [Python](algorithms/0242_valid_anagram.py)|Easy|String|
-|0268|[Missing Number](https://leetcode.com/problems/missing-number/)||Easy|Binary|
+|0268|[Missing Number](https://leetcode.com/problems/missing-number/)|[C++](algorithms/0268_missing_number.cpp), [Python](algorithms/0268_missing_number.py)|Easy|Binary|
 |0295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)||Hard|Heap|
 |0297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)||Hard|Tree|
 |0300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)||Medium|DP|
 |0332|[Coin Change](https://leetcode.com/problems/coin-change/)||Medium|DP|
 |0338|[Counting Bits](https://leetcode.com/problems/counting-bits/)||Medium|Binary|
 |0347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)||Medium|Heap|
-|0371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)||Easy|Binary|
+|0371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[C++](algorithms/0371_sum_of_two_integers.cpp), [Python](algorithms/0371_sum_of_two_integers.py)|Easy|Binary|
 |0377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)||Medium|DP|
 |0414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[C++](algorithms/0414_third_maximum_number.cpp), [Python](algorithms/0414_third_maximum_number.py)|Easy|Heap|
 |0417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)||Medium|Graph|
