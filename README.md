@@ -94,7 +94,7 @@ cmake --build . --target test     # run tests
 |0535|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl)|[C++](algorithms/0535_tiny_url.cpp), [Ruby](algorithms/0535_tiny_url.rb)|Medium|Design|
 |0561|[Array Partition I](https://leetcode.com/problems/array-partition-i)|[C++](algorithms/0561_array_partition_i.cpp), [Python](algorithms/0561_array_partition_i.py)|Easy|Array|
 |0572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[C++](algorithms/0572_subtree_of_another_tree.cpp), [Python](algorithms/0572_subtree_of_another_tree.py)|Easy|Tree|
-|0617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees)|[C++](algorithms/0617_merge_two_binary_trees.cpp)|Easy|Tree|
+|0617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees)|[C++](algorithms/0617_merge_two_binary_trees.cpp), [Python](algorithms/0617_merge_two_binary_trees.py)|Easy|Tree|
 |0647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)||Medium|String|
 |9999|[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)|||Graph|
 |9999|[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)|||String|
