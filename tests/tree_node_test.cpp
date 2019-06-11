@@ -1,6 +1,5 @@
 #include "tree_node.hpp"
 #include <doctest.h>
-#include <memory>
 
 TEST_CASE("make_tree1")
 {

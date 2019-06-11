@@ -15,7 +15,7 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
-#include "listNode.hpp"
+#include "list_node.hpp"
 #include <unordered_set>
 
 class Solution

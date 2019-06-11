@@ -31,6 +31,7 @@ target_sources(unit_tests
     0561_array_partition_i_test.cpp
     0572_subtree_of_another_tree_test.cpp
     0617_merge_two_binary_trees_test.cpp
+    list_node_test.cpp
     tree_node_test.cpp)
 
 target_include_directories(unit_tests
@@ -40,7 +41,7 @@ target_include_directories(unit_tests
 target_link_libraries(unit_tests
   PRIVATE
     CONAN_PKG::doctest
-    tree_util
+    util
     project_warnings)
 
 target_compile_definitions(unit_tests PRIVATE DOCTEST_CONFIG_SUPER_FAST_ASSERTS)

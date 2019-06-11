@@ -1,7 +1,5 @@
 #include "0572_subtree_of_another_tree.cpp"
 #include <doctest.h>
-//#include <initializer_list>
-#include <memory>
 
 TEST_CASE("isSubTree - same tree")
 {

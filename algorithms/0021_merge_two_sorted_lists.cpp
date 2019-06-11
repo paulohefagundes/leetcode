@@ -1,4 +1,4 @@
-#include "listNode.hpp"
+#include "list_node.hpp"
 
 /*******************************************************************************
  * Source: https://leetcode.com/problems/merge-two-sorted-lists/

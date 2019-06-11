@@ -1,28 +1,14 @@
 import importlib
 import pytest
-from algorithms.list_node import ListNode
+from algorithms.list_node import make_list, same_values
 
 module = importlib.import_module("algorithms.0206_reverse_linked_list")
 
 
 def test_reverse_list():
-    l0 = ListNode(1)
-    l1 = ListNode(2)
-    l2 = ListNode(3)
-    l3 = ListNode(4)
-    l4 = ListNode(5)
+    l = make_list([1, 2, 3, 4, 5])
 
     s = module.Solution()
-    l0.next = l1
-    l1.next = l2
-    l2.next = l3
-    l3.next = l4
+    r = s.reverseList(l[0])
 
-    s = module.Solution()
-    r = s.reverseList(l0)
-
-    for i in [5, 4, 3, 2, 1]:
-        assert r
-        assert r.val == i
-        r = r.next
-    assert not r
+    assert same_values(r, [5, 4, 3, 2, 1])

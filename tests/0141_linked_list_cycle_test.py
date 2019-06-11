@@ -1,6 +1,6 @@
 import importlib
 import pytest
-from algorithms.list_node import ListNode
+from algorithms.list_node import ListNode, make_list, same_values
 
 module = importlib.import_module("algorithms.0141_linked_list_cycle")
 
@@ -11,27 +11,19 @@ def test_has_cycle_1():
 
 
 def test_has_cycle_2():
-    l0 = ListNode(3)
-    l1 = ListNode(2)
-    l2 = ListNode(0)
-    l3 = ListNode(-4)
-    l0.next = l1
-    l1.next = l2
-    l2.next = l3
-    l3.next = l1
+    l = make_list([3, 2, 0, -1])
+    l[3].next = l[1]
 
     s = module.Solution()
-    assert s.hasCycle(l0)
+    assert s.hasCycle(l[0])
 
 
 def test_has_cycle_3():
-    l0 = ListNode(1)
-    l1 = ListNode(2)
-    l0.next = l1
-    l1.next = l0
+    l = make_list([1, 2])
+    l[1].next = l[0]
 
     s = module.Solution()
-    assert s.hasCycle(l0)
+    assert s.hasCycle(l[0])
 
 
 def test_has_cycle_4():

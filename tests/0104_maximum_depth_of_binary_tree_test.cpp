@@ -1,6 +1,5 @@
 #include "0104_maximum_depth_of_binary_tree.cpp"
 #include <doctest.h>
-#include <memory>
 
 TEST_CASE("maxDepth")
 {

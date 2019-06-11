@@ -1,6 +1,5 @@
 #include "0235_lowest_common_ancestor_of_a_binary_search_tree.cpp"
 #include <doctest.h>
-#include <memory>
 
 TEST_CASE("lowestCommonAncestor1")
 {

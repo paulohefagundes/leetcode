@@ -1,6 +1,5 @@
 #include "0100_same_tree.cpp"
 #include <doctest.h>
-#include <memory>
 
 TEST_CASE("isSameTreeTest1")
 {
