@@ -4,6 +4,7 @@ target_sources(unit_tests
   PRIVATE
     main.cpp
     0001_two_sum_test.cpp
+    0019_remove_nth_node_from_end_of_list_test.cpp
     0020_valid_parentheses_test.cpp
     0021_merge_two_sorted_lists_test.cpp
     0053_maximum_subarray_test.cpp
@@ -43,6 +44,22 @@ target_link_libraries(unit_tests
     CONAN_PKG::doctest
     util
     project_warnings)
+
+# MemorySanitizer
+# target_link_options(unit_tests
+#   PRIVATE
+#     -fsanitize=memory
+#     -fno-optimize-sibling-calls
+#     -fsanitize-memory-track-origins=2
+#     -fno-omit-frame-pointer)
+
+# AddressSanitizer
+target_link_options(unit_tests
+  PRIVATE
+  -fsanitize=address
+  -fno-optimize-sibling-calls
+  -fsanitize-address-use-after-scope
+  -fno-omit-frame-pointer)
 
 target_compile_definitions(unit_tests PRIVATE DOCTEST_CONFIG_SUPER_FAST_ASSERTS)
 

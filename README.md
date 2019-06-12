@@ -26,7 +26,7 @@ cmake --build . --target test     # run tests
 |0005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)||Medium|String|
 |0011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)||Medium|Array|
 |0015|[3Sum](https://leetcode.com/problems/3sum/)||Medium|Array|
-|0019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)||Medium|Linked List|
+|0019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C++](algorithms/0019_remove_nth_node_from_end_of_list.cpp), [Python](algorithms/0019_remove_nth_node_from_end_of_list.py)|Medium|Linked List|
 |0020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[C++](algorithms/0020_valid_parentheses.cpp), [Python](algorithms/0020_valid_parentheses.py)|Easy|String|
 |0021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[C++](algorithms/0021_merge_two_sorted_lists.cpp), [Python](algorithms/0021_merge_two_sorted_lists.py)|Easy|Linked List|
 |0023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)||Hard|Linked List,Heap|
