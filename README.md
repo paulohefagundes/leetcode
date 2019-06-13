@@ -75,10 +75,16 @@ cmake --build . --target test     # run tests
 |0235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[C++](algorithms/0235_lowest_common_ancestor_of_a_binary_search_tree.cpp), [Python](algorithms/0235_lowest_common_ancestor_of_a_binary_search_tree.py)|Easy|Tree|
 |0238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)||Medium|Array|
 |0242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[C++](algorithms/0242_valid_anagram.cpp), [Python](algorithms/0242_valid_anagram.py)|Easy|String|
+|0252|[Meeting Rooms*](https://leetcode.com/problems/meeting-rooms/)|||Interval|
+|0253|[Meeting Rooms II*](https://leetcode.com/problems/meeting-rooms-ii/)|||Interval|
+|0261|[Graph Valid Tree*](https://leetcode.com/problems/graph-valid-tree/)|||Graph|
 |0268|[Missing Number](https://leetcode.com/problems/missing-number/)|[C++](algorithms/0268_missing_number.cpp), [Python](algorithms/0268_missing_number.py)|Easy|Binary|
+|0269|[Alien Dictionary*](https://leetcode.com/problems/alien-dictionary/)|||Graph|
+|0271|[Encode and Decode Strings*](https://leetcode.com/problems/encode-and-decode-strings/)|||String|
 |0295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)||Hard|Heap|
 |0297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)||Hard|Tree|
 |0300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)||Medium|DP|
+|0323|[Number of Connected Components in an Undirected Graph*](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|||Graph|
 |0332|[Coin Change](https://leetcode.com/problems/coin-change/)||Medium|DP|
 |0338|[Counting Bits](https://leetcode.com/problems/counting-bits/)||Medium|Binary|
 |0347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)||Medium|Heap|
@@ -96,13 +102,7 @@ cmake --build . --target test     # run tests
 |0572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[C++](algorithms/0572_subtree_of_another_tree.cpp), [Python](algorithms/0572_subtree_of_another_tree.py)|Easy|Tree|
 |0617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees)|[C++](algorithms/0617_merge_two_binary_trees.cpp), [Python](algorithms/0617_merge_two_binary_trees.py)|Easy|Tree|
 |0647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)||Medium|String|
-|9999|[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)|||Graph|
-|9999|[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)|||String|
-|9999|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)|||Graph|
-|9999|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|||Interval|
-|9999|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|||Interval|
-|9999|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|||Graph|
-|9999|Longest Common Subsequence|||DP|
+|9999|[Longest Common Subsequence](https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/)|||DP|
 
 <!-- links -->
 [leetcode problems]: https://leetcode.com/problemset/all/
