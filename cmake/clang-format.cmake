@@ -10,6 +10,8 @@ set(HINT_LLVM_BIN_PATHS
   "C:/Program Files/LLVM/bin"       # windows
   "C:/Program Files (x86)/LLVM/bin" # windows
   "/usr/local/opt/llvm/bin"         # macOS (through homebrew)
+  "/usr/lib/llvm-9/bin/"            # ubuntu
+  "/usr/lib/llvm-8/bin/"            # ubuntu
   "/usr/lib/llvm-7/bin/"            # ubuntu
   "/usr/lib/llvm-6.0/bin"           # ubuntu
 )
@@ -19,6 +21,8 @@ if(ENABLE_CLANG_FORMAT)
   find_program(CLANG_FORMAT
     NAMES
       clang-format
+      clang-format-9
+      clang-format-8
       clang-format-7
     HINTS ${HINT_LLVM_BIN_PATHS}
     DOC "clang-format executable")

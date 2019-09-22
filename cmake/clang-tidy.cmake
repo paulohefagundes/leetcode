@@ -10,6 +10,8 @@ set(HINT_LLVM_BIN_PATHS
   "C:/Program Files/LLVM/bin"       # windows
   "C:/Program Files (x86)/LLVM/bin" # windows
   "/usr/local/opt/llvm/bin"         # macOS (through homebrew)
+  "/usr/lib/llvm-9/bin/"            # ubuntu
+  "/usr/lib/llvm-8/bin/"            # ubuntu
   "/usr/lib/llvm-7/bin/"            # ubuntu
   "/usr/lib/llvm-6.0/bin"           # ubuntu
 )
@@ -19,6 +21,8 @@ set(HINT_LLVM_SHARE_PATHS
   "C:/Program Files (x86)/LLVM/share/clang" # windows
   "/usr/local/opt/llvm/share/clang"         # macOS (through homebrew)
   "/usr/share/clang"                        # archlinux
+  "/usr/lib/llvm-9/share/clang"             # ubuntu
+  "/usr/lib/llvm-8/share/clang"             # ubuntu
   "/usr/lib/llvm-7/share/clang"             # ubuntu
   "/usr/lib/llvm-6.0/share/clang"           # ubuntu
 )
@@ -28,6 +32,8 @@ if(ENABLE_CLANG_TIDY)
   find_program(CLANG_TIDY
     NAMES
       clang-tidy
+      clang-tidy-9
+      clang-tidy-8
       clang-tidy-7
     HINTS ${HINT_LLVM_BIN_PATHS}
     DOC "clang-tidy executable")

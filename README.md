@@ -1,5 +1,7 @@
 # leetcode
 
+[![Build Status](https://travis-ci.com/paulohefagundes/leetcode.svg?branch=master)](https://travis-ci.com/paulohefagundes/leetcode)
+
 this repository contains my solutions for [leetcode problems]
 
 ## build
