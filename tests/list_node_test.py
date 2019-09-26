@@ -1,5 +1,3 @@
-import importlib
-import pytest
 from algorithms.list_node import make_list, same_values, ListNode
 
 
@@ -24,7 +22,7 @@ def test_make_list():
         if i < 4:
             assert l[i].next == l[i + 1]
 
-    assert l[4].next == None
+    assert l[4].next is None
 
 
 def test_same_values():

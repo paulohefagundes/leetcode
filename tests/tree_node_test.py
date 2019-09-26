@@ -1,5 +1,3 @@
-import importlib
-import pytest
 from algorithms.tree_node import make_tree, TreeNode
 
 
@@ -71,7 +69,7 @@ def test_make_tree2():
     assert v[4].val == s4.val
     assert v[5].val == s5.val
     assert v[6].val == s6.val
-    assert v[3].left == None
-    assert v[3].right == None
+    assert v[3].left is None
+    assert v[3].right is None
     assert v[9].val == s9.val
     assert v[10].val == s10.val

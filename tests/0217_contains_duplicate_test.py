@@ -1,5 +1,4 @@
 import importlib
-import pytest
 
 module = importlib.import_module("algorithms.0217_contains_duplicate")
 

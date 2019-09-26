@@ -1,5 +1,4 @@
 import importlib
-import pytest
 from algorithms.tree_node import make_tree
 
 module = importlib.import_module("algorithms.0617_merge_two_binary_trees")
@@ -18,9 +17,9 @@ def test_merge_trees():
     assert r.right.val == 5
     assert r.left.left.val == 5
     assert r.left.right.val == 4
-    assert r.left.left.left == None
-    assert r.left.left.right == None
+    assert r.left.left.left is None
+    assert r.left.left.right is None
     assert r.right.val == 5
-    assert r.right.left == None
+    assert r.right.left is None
     assert r.right.right.val == 7
-    assert r.right.right.right == None
+    assert r.right.right.right is None

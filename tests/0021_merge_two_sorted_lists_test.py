@@ -1,5 +1,4 @@
 import importlib
-import pytest
 from algorithms.list_node import make_list, same_values
 
 module = importlib.import_module("algorithms.0021_merge_two_sorted_lists")

@@ -1,5 +1,4 @@
 import importlib
-import pytest
 
 module = importlib.import_module("algorithms.0190_reverse_bits")
 

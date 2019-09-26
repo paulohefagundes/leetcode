@@ -1,5 +1,4 @@
 import importlib
-import pytest
 
 module = importlib.import_module("algorithms.0561_array_partition_i")
 

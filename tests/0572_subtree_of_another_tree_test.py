@@ -1,5 +1,4 @@
 import importlib
-import pytest
 from algorithms.tree_node import TreeNode, make_tree
 
 module = importlib.import_module("algorithms.0572_subtree_of_another_tree")
@@ -34,7 +33,7 @@ def test_is_subtree3():
     b = make_tree([4, 1, 2])
 
     s = module.Solution()
-    assert s.isSubtree(a[0], b[0]) == False
+    assert not s.isSubtree(a[0], b[0])
 
 
 def test_is_subtree4():

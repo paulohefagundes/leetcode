@@ -1,6 +1,5 @@
 import importlib
-import pytest
-from algorithms.list_node import ListNode, make_list, same_values
+from algorithms.list_node import ListNode, make_list
 
 module = importlib.import_module("algorithms.0141_linked_list_cycle")
 

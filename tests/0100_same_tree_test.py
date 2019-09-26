@@ -1,5 +1,4 @@
 import importlib
-import pytest
 from algorithms.tree_node import make_tree
 
 module = importlib.import_module("algorithms.0100_same_tree")

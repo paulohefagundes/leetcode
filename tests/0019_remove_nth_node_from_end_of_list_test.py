@@ -1,5 +1,4 @@
 import importlib
-import pytest
 from algorithms.list_node import ListNode, make_list, same_values
 
 module = importlib.import_module("algorithms.0019_remove_nth_node_from_end_of_list")
