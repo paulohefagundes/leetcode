@@ -1,6 +1,6 @@
 # leetcode
 
-[![Build Status](https://travis-ci.com/paulohefagundes/leetcode.svg?branch=master)](https://travis-ci.com/paulohefagundes/leetcode)
+[![Actions Status](https://github.com/paulohefagundes/leetcode/workflows/leetcode/badge.svg)](https://github.com/paulohefagundes/leetcode/actions)
 
 this repository contains my solutions for [leetcode problems]
 
